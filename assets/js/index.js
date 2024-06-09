@@ -88,7 +88,7 @@ fetch('/assets/data/data.json')
         let menuListTitle = document.querySelectorAll('.list-title')
         console.log(menuListTitle);
 
-        
+        // FOnctionnalite pour gerer le menu-toogle
         for (let i=0; i<menuListTitle.length; i++) {
             menuListTitle[i].addEventListener('click', () => {
                 if (parseInt(window.innerWidth) <= 400) {
@@ -103,4 +103,11 @@ fetch('/assets/data/data.json')
                 }
             })
         }
+
+        // FOnctionnalité pour gérer la recherche
+        let inputSearch = document.querySelector('#input-catalogue')
+
+        inputSearch.addEventListener('onChange', () => {
+            console.log(inputSearch);
+        })
     });
