@@ -5,7 +5,7 @@ fetch('/assets/data/data.json')
     .then( data => {
         let dataJson = data
         let cardContainer = document.getElementById('card-container')
-        console.log(data);
+        // console.log(data);
 
         let dataItem = data["nouveautes"]
         dataItem.forEach( item => {
@@ -38,10 +38,10 @@ fetch('/assets/data/data.json')
         }
 
         let cardCategoryContainer = document.querySelector('#category-container')
-        console.log(cardCategoryContainer);
+        // console.log(cardCategoryContainer);
 
         for (let i=0; i<3; i++) {
-            console.log(dataItem[i]);
+            // console.log(dataItem[i]);
             drawCardCategory(cardCategoryContainer , dataItem[i]);
         }
 
@@ -86,7 +86,7 @@ fetch('/assets/data/data.json')
         })
 
         let menuListTitle = document.querySelectorAll('.list-title')
-        console.log(menuListTitle);
+        // console.log(menuListTitle);
 
         // FOnctionnalite pour gerer le menu-toogle
         for (let i=0; i<menuListTitle.length; i++) {
@@ -107,7 +107,20 @@ fetch('/assets/data/data.json')
         // FOnctionnalité pour gérer la recherche
         let inputSearch = document.querySelector('#input-catalogue')
 
-        inputSearch.addEventListener('onChange', () => {
-            console.log(inputSearch);
+        // console.log(inputSearch);
+
+
+        inputSearch.addEventListener('keyup', (data) => {
+            let target = inputSearch.value
+            // console.log(dataJson);
+            let title = document.getElementById('main-title').textContent.toLowerCase()
+            console.log(title, dataJson.title);
+            // console.log(title, data.title);
+            // for ( item of data[title] ) {
+            //     if (item.name.contains(target)) {
+            //         result.push(item)
+            //         drawCard(main, item) 
+            //     }
+            // }
         })
     });
