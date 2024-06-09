@@ -507,7 +507,7 @@ html, body, #root {
     #footer {
         font-size: 12px;
     }
-    
+
     #footer h1 {
         font-size: 18px;
         margin: 10px;
@@ -527,5 +527,12 @@ html, body, #root {
 
     #footer form {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 800px){
+
+    #footer-content {
+        flex-wrap: wrap;
     }
 }
