@@ -163,7 +163,33 @@
 
     ],
     "maillots": [
-
+        {
+            "id": 6,
+            "image": "./img/produits/maillots/maillot-arsenal-domicile-2024-25.webp",
+            "description": "Maillot Arsenal domicile",
+            "old-price": 225.00,
+            "price-reduction": 149.00,
+            "categorie": "maillot",
+            "etoile": 5
+        },
+        {
+            "id": 6,
+            "image": "./img/produits/maillots/maillot-arsenal-domicile-2024-25.webp",
+            "description": "Maillot Arsenal domicile",
+            "old-price": 225.00,
+            "price-reduction": 149.00,
+            "categorie": "maillot",
+            "etoile": 5
+        },
+        {
+            "id": 6,
+            "image": "./img/produits/maillots/maillot-arsenal-domicile-2024-25.webp",
+            "description": "Maillot Arsenal domicile",
+            "old-price": 225.00,
+            "price-reduction": 149.00,
+            "categorie": "maillot",
+            "etoile": 5
+        }
     ],
     "pantalons": [
 

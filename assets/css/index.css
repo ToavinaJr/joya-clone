@@ -131,7 +131,7 @@ html, body, #root {
 #menu {
     background-color: var(--color-blue);
     margin: 10px 8% 20px 8%;
-    padding: 0px 20px;
+    padding: 0px 100px;
     width: 84vw;
     height: 60px;
     display: flex;
@@ -162,11 +162,14 @@ html, body, #root {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: var(--color-gray);
+    background-color: #585858; 
+    color: #fff;
+    opacity: 0.9;
 }
 
 .menu-list-item:hover {
     text-decoration: underline;
+    color: var(--color-blue);
 }
 
 /* STYLE DE MAIN */
@@ -214,8 +217,10 @@ html, body, #root {
 }
 
 .details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     padding: 10px;
-    background-color: #c9c9c9;
 }
 
 .old-price {
@@ -224,4 +229,12 @@ html, body, #root {
 
 .actual-price {
     font-weight: bold;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.stars-container {
+    color: #fbff04
 }
