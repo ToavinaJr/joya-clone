@@ -4,249 +4,172 @@
             "title": "NOUVEAUTES",
             "id": 0,
             "image": "./img/produits/ballons/ballon-euro-2024-box-blanc.webp",
-            "description": "Ballons Euro 2024",
+            "name": "Ballons Euro 2024",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "ballon",
-            "etoile": 4
+            "etoile": 4,
+            "description": "Un ballon officiel de l'Euro 2024, parfait pour les supporters."
         },
         {
             "id": 1,
             "image": "./img/produits/chaussures/adidas-predator-accuracy-1-montante-fg-noir-orange.webp",
-            "description": "Chaussettes",
+            "name": "Chaussettes",
             "old-price": 225.00,
             "price-reduction": 149.00,
-            "categorie": "ballon",
-            "etoile": 5
+            "categorie": "Chaussures",
+            "etoile": 5,
+            "description": "Chaussettes Confortables et durables, idéales pour tout type de chaussures."
         },
         {
             "id": 3,
             "image": "./img/produits/Chaussettes/chaussettes-soxpro-grip-anti-slip-vert.webp",
-            "description": "Chaussettes Soxprop Grip",
+            "name": "Chaussettes Soxprop Grip",
             "old-price": 275.00,
             "price-reduction": 149.00,
-            "categorie": "ballon",
-            "etoile": 5
+            "categorie": "Chaussettes",
+            "etoile": 5,
+            "description": "Chaussettes Soxprop Grip : Haute performance, avec grip anti-slip pour une meilleure tenue."
         },
-        {   
+        {
             "id": 4,
             "image": "./img/produits/sweats/sweat-zippe-allemagne-gris-fonce-2020.webp",
-            "description": "Sweat Zipper Allemagne",
+            "name": "Sweat Zipper Allemagne",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "sweat",
-            "etoile": 4
+            "etoile": 4,
+            "description": "Description du Sweat Zipper Allemagne : Un sweat confortable avec zip, parfait pour le temps froid."
         },
         {
             "id": 5,
             "image": "./img/produits/polo/polo-copa-maradona-x-boca-retro.webp",
-            "description": "Polo Maradona Copa",
+            "name": "Polo Maradona Copa",
             "old-price": 200.00,
             "price-reduction": 50.00,
             "categorie": "polo",
-            "etoile": 4
+            "etoile": 4,
+            "description": "Un polo premium avec design retro, ideal pour les fans de football."
         },
         {
             "id": 6,
             "image": "./img/produits/maillots/maillot-arsenal-domicile-2024-25.webp",
-            "description": "Maillot Arsenal domicile",
+            "name": "Maillot Arsenal domicile",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "maillot",
-            "etoile": 5
+            "etoile": 5,
+            "description": "Maillot officiel de l'Arsenal  domicile, disponible en différentes tailles."
         },
         {
             "id": 7,
             "image": "./img/produits/sacs/sac-de-sport-puma-medium-bleu-noir.webp",
-            "description": "Sac d'entrainement",
+            "name": "Sac d'entrainement",
             "old-price": 275.00,
             "price-reduction": 149.00,
             "categorie": "sac",
-            "etoile": 5
+            "etoile": 5,
+            "description": "Un sac robuste et pratique pour transporter vos équipements sportifs."
         },
-        {   
+        {
             "id": 8,
             "image": "./img/produits/sweats/sweat-zippe-allemagne-gris-fonce-2020.webp",
-            "description": "Sweat Zipper Allemagne",
+            "name": "Sweat Zipper Allemagne",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "sweat",
-            "etoile": 4
+            "etoile": 4,
+            "description": "Un sweat moderne avec zip, idéal pour le style urbain."
         }
     ],
-    "ballons" : [
+    "ballons": [
         {
             "id": 9,
             "image": "./img/produits/ballons/ballon-euro-2024-box-blanc.webp",
-            "description": "Ballons Euro 2024",
+            "name": "Ballon Euro 2024",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "ballon",
-            "etoile": 4
+            "etoile": 4,
+            "description": "Un ballon officiel de l'Euro 2024, parfait pour les supporters."
         },
         {
             "id": 10,
             "image": "./img/produits/ballons/adidas-ballon-de-football-al-rihla-entrainement.webp",
-            "description": "Adidas Al Rihla",
+            "name": "Adidas Al Rihla",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "ballon",
-            "etoile": 4
+            "etoile": 4,
+            "description": "Un ballon de football professionnel pour votre entraînement."
         },
         {
             "id": 11,
             "image": "./img/produits/ballons/ballon-signatures-psg-collection-officielle-pari.webp",
-            "description": "PSG Collection ",
+            "name": "Ballon PSG Collection ",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "ballon",
-            "etoile":3
+            "etoile": 3,
+            "description": "Une ballon de collection signée par des joueurs célèbres du PSG."
         },
         {
-            "id": 11,
+            "id": 12,
             "image": "./img/produits/ballons/fc-barcelona-ballon-mini-foot-jersey.webp",
-            "description": "Fc Barcelona Mini-Foot Jersey",
+            "name": "Fc Barcelona Mini-Foot Jersey",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "ballon",
-            "etoile":5
+            "etoile": 5,
+            "description": "Un mini Ballon jersey de FC Barcelone, parfait pour les enfants."
         }
     ],
     "chaussettes": [
         {
-            "id": 3,
+            "id": 13,
             "image": "./img/produits/Chaussettes/chaussettes-soxpro-grip-anti-slip-vert.webp",
-            "description": "Chaussettes Soxprop Grip",
+            "name": "Chaussettes Soxprop Grip",
             "old-price": 275.00,
             "price-reduction": 149.00,
-            "categorie": "ballon",
-            "etoile": 5
-        },
-        {
-            "id": 3,
-            "image": "./img/produits/Chaussettes/chaussettes-soxpro-grip-anti-slip-vert.webp",
-            "description": "Chaussettes Soxprop Grip",
-            "old-price": 275.00,
-            "price-reduction": 149.00,
-            "categorie": "ballon",
-            "etoile": 5
-        },
-        {
-            "id": 3,
-            "image": "./img/produits/Chaussettes/chaussettes-soxpro-grip-anti-slip-vert.webp",
-            "description": "Chaussettes Soxprop Grip",
-            "old-price": 275.00,
-            "price-reduction": 149.00,
-            "categorie": "ballon",
-            "etoile": 5
-        },
-        {
-            "id": 3,
-            "image": "./img/produits/Chaussettes/chaussettes-soxpro-grip-anti-slip-vert.webp",
-            "description": "Chaussettes Soxprop Grip",
-            "old-price": 275.00,
-            "price-reduction": 149.00,
-            "categorie": "ballon",
-            "etoile": 5
-        },
-        {
-            "id": 3,
-            "image": "./img/produits/Chaussettes/chaussettes-soxpro-grip-anti-slip-vert.webp",
-            "description": "Chaussettes Soxprop Grip",
-            "old-price": 275.00,
-            "price-reduction": 149.00,
-            "categorie": "ballon",
-            "etoile": 5
+            "categorie": "chaussette",
+            "etoile": 5,
+            "description": "Chaussetes Haute performance, avec grip anti-slip pour une meilleure tenue."
         }
-    ],
-    "gants": [
-
     ],
     "maillots": [
         {
-            "id": 6,
+            "id": 14,
             "image": "./img/produits/maillots/maillot-arsenal-domicile-2024-25.webp",
-            "description": "Maillot Arsenal domicile",
+            "name": "Maillot Arsenal domicile",
             "old-price": 225.00,
             "price-reduction": 149.00,
             "categorie": "maillot",
-            "etoile": 5
-        },
-        {
-            "id": 6,
-            "image": "./img/produits/maillots/maillot-arsenal-domicile-2024-25.webp",
-            "description": "Maillot Arsenal domicile",
-            "old-price": 225.00,
-            "price-reduction": 149.00,
-            "categorie": "maillot",
-            "etoile": 5
-        },
-        {
-            "id": 6,
-            "image": "./img/produits/maillots/maillot-arsenal-domicile-2024-25.webp",
-            "description": "Maillot Arsenal domicile",
-            "old-price": 225.00,
-            "price-reduction": 149.00,
-            "categorie": "maillot",
-            "etoile": 5
+            "etoile": 5,
+            "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
         }
     ],
-    "pantalons": [
-
-    ],
-    "polo": [
-
-    ],
-    "sacs": [
-
-    ],
-    "sweats" : [
+    "sweats": [
         {
-            "id": 3,
+            "id": 15,
             "image": "./img/produits/sweats/sweat-zippe-allemagne-gris-fonce-2020.webp",
-            "description": "Sweat Zipper Allemagne",
+            "name": "Sweat Zipper Allemagne",
             "old-price": 275.00,
             "price-reduction": 149.00,
-            "categorie": "shorts",
-            "etoile": 5
+            "categorie": "sweat",
+            "etoile": 5,
+            "description": "Un sweat moderne avec zip, idéal pour le style urbain."
         }
     ],
-    "shorts" : [
+    "shorts": [
         {
-            "id": 3,
+            "id": 16,
             "image": "./img/produits/shorts/short-bayern-munich-domicile-2024-25.webp",
-            "description": "Bayern Munich 24-25",
+            "name": "Bayern Munich 24-25",
             "old-price": 275.00,
             "price-reduction": 149.00,
             "categorie": "shorts",
-            "etoile": 5
-        },
-        {
-            "id": 3,
-            "image": "./img/produits/shorts/short-entrainement-adidas-tiro24-noir-blanc.webp",
-            "description": "Entrainement Adidas",
-            "old-price": 275.00,
-            "price-reduction": 149.00,
-            "categorie": "shorts",
-            "etoile": 5
-        },
-        {
-            "id": 3,
-            "image": "./img/produits/shorts/short-junior-psg-domicile-2024-25.webp",
-            "description": "Junior PSG 24-25",
-            "old-price": 275.00,
-            "price-reduction": 149.00,
-            "categorie": "shorts",
-            "etoile": 5
-        },
-        {
-            "id": 3,
-            "image": "./img/produits/shorts/short-manchester-city-domicile-2024-25.webp",
-            "description": "Bayern Munich 24-25",
-            "old-price": 275.00,
-            "price-reduction": 149.00,
-            "categorie": "shorts",
-            "etoile": 5
+            "etoile": 5,
+            "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
         }
     ]
 }

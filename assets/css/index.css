@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    color: #1f1f1f;
 }
 
 /* *************** */
@@ -137,7 +138,14 @@ html, body, #root {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#menu-toogle {
+    display: none;
+    font-size: 38px;
     color: #fff;
+    margin: 8px 10px 10px 10px ;
+    cursor: pointer;
 }
 
 .menu-content {
@@ -151,25 +159,27 @@ html, body, #root {
 
 .menu-list {
     display: none;
-    color: #0d0d0d;
+    background-color: #acacac;
     position: absolute;
     left: 0px;
     top: 100%;
+    opacity: 0.9;
+    color: #fff;
 }
 
+.menu-content:hover {
+    color: #fff;
+}
 .menu-content:hover ul {
     padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #585858; 
-    color: #fff;
-    opacity: 0.9;
 }
 
 .menu-list-item:hover {
     text-decoration: underline;
-    color: var(--color-blue);
+    color: #0d0d0d;
 }
 
 /* STYLE DE MAIN */
@@ -181,6 +191,7 @@ html, body, #root {
 #main-title {
     text-align: center;
     color: var(--color-blue);
+    margin-bottom: 10px;
 }
 
 #card-container {
@@ -223,6 +234,10 @@ html, body, #root {
     padding: 10px;
 }
 
+.details .description {
+    display: none;
+}
+
 .old-price {
     text-decoration: line-through;
 }
@@ -231,10 +246,286 @@ html, body, #root {
     font-weight: bold;
 }
 
-.description {
+.name {
     font-weight: bold;
 }
 
 .stars-container {
     color: #fbff04
+}
+
+/* Category container */
+
+#category-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.category-image {
+    position: absolute;
+    width: 180px;
+    height: 298px;
+}
+
+.category-card {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
+    border: #0d0d0d 1px solid;
+}
+
+.category-name {
+    background-color: var(--color-blue);
+    padding: 20px;
+    color: #000;
+    opacity: 0.8;
+    z-index: 2 ;
+}
+
+.category-card:hover .category-name {
+    background-color: #01468f;
+    color: #fff;
+}
+
+.category-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 8% 20px 8%;
+    border-top: 1px solid #000;
+    margin-top: 40px;
+    background-color: var(--color-gray);
+}
+
+#footer h1 {
+    color: var(--color-blue);
+    text-transform: uppercase;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer ul li {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#footer ul li:hover {
+    text-decoration: underline;
+}
+
+#footer-img {
+    width: 200px;
+}
+
+#newsletter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#newsletter-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--color-blue);
+}
+
+#newsletter-container p {
+    text-align: center;
+}
+
+#newsletter-container form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#newsletter-container form *{
+    height: 40px;
+    padding: 10px;
+}
+
+#newsletter-container form input[type="submit"] {
+    background-color: var(--color-blue);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+/* REsponsive */
+
+@media screen and (max-width : 400px){
+
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    #header {
+        width: 98vw;
+        padding: 4px;
+    }
+    
+    #service-client {
+        font-size: 12px;
+    }
+    
+    #service-livraison,
+    #service-collect,
+    #input-catalogue,
+    #mon-compte{
+        display: none;
+    }
+    
+    #nav-top {
+        padding: 4px;
+    }
+    
+    #compte-panier,
+    #compte-container,
+    #panier-container{
+        gap: 5px;
+    }
+    
+    .text {
+        font-size: 12px;
+    }
+    
+    #nav-image-container {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #nav-image-container img{
+        width: 90vw;
+    }
+    
+    #service-client {
+        font-size: 12px;
+    }
+    
+    #service-livraison,
+    #service-collect,
+    #input-catalogue,
+    #mon-compte{
+        display: none;
+    }
+    
+    #nav-top {
+        padding: 4px;
+    }
+    
+    #compte-panier,
+    #compte-container,
+    #panier-container{
+        gap: 5px;
+    }
+    
+    .text {
+        font-size: 12px;
+    }
+    
+    #menu {
+        margin: 1vw !important;
+        width: 100% !important;
+        display: flex;
+        padding: 0;
+        justify-content: start !important;
+        align-items: start !important;
+        flex-direction: column;
+        height: fit-content;
+        color: #fff !important;
+    }
+        
+    .menu-content {
+        display: none;
+        flex-direction: column;
+        padding: 5px 10px;
+        font-weight: bold;
+    }
+    
+    #menu-toogle {
+        display: flex;
+    }
+
+    .list-title, .menu-list-item {
+        color: #e9e4e4;
+    }
+
+    .menu-list {
+        font-weight: normal;
+        flex-direction: column;
+        position: unset;
+        background: unset;
+        padding-left: 10px;
+        margin-left: 0;
+    }
+
+    #nav-image-container {
+        padding: 1vw;
+    }
+
+    #category-container {
+        flex-direction: column;
+        width: 100vw;
+        padding: 0;
+    }
+    
+    #main {
+        padding: 4vw;
+    }
+
+    .category-card,
+    .category-image-container img{
+        width: 92vw !important;
+        padding: 0;
+    }
+
+    .category-img {
+        width: 96vw;
+        padding: 0;
+    }
+
+    #footer {
+        font-size: 12px;
+    }
+    
+    #footer h1 {
+        font-size: 18px;
+        margin: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    #newsletter-container p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    #footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #footer form {
+        flex-direction: column;
+    }
 }

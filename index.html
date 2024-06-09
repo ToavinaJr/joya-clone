@@ -38,12 +38,12 @@
                 <div id="compte-panier">
                     <div id="compte-container">
                         <i class="fa fa-user icon"></i>
-                        <span>MON COMPTE</span>
+                        <span class="text" id="mon-compte">MON COMPTE</span>
                         <i class="fa fa-sort-down icon"></i>
                     </div>
                     <div id="panier-container">
                         <i class="fa fa-shopping-cart"></i>
-                        <span>MON PANIER</span>
+                        <span class="text">MON PANIER</span>
                         <span id="panier-compteur">0</span>
                     </div>
                 </div>
@@ -55,8 +55,9 @@
 
             <!-- Bar de Menu -->
             <nav id="menu">
+                <div id="menu-toogle">&#9776;</div>
                 <div class="menu-content">
-                    <span>Prêt à porter</span>
+                    <span class="list-title">Prêt à porter</span>
                     <ul class="menu-list">
                         <li class="menu-list-item">Maillots</li>
                         <li class="menu-list-item">Chaussures</li>
@@ -65,7 +66,7 @@
                 </div>
 
                 <div class="menu-content">
-                    <span>Équipements</span>
+                    <span class="list-title">Équipements</span>
                     <ul class="menu-list">
                         <li class="menu-list-item">Gardients</li>
                         <li class="menu-list-item">Entraineurs</li>
@@ -74,7 +75,7 @@
                 </div>
 
                 <div class="menu-content">
-                    <span>Matériels</span>
+                    <span class="list-title">Matériels</span>
                     <ul class="menu-list">
                         <li class="menu-list-item">Ballons</li>
                         <li class="menu-list-item">Protèges</li>
@@ -82,7 +83,7 @@
                     </ul>
                 </div>
                 <div class="menu-content">
-                    <span>Collections</span>
+                    <span class="list-title">Collections</span>
                     <ul class="menu-list">
                         <li class="menu-list-item">Messi</li>
                         <li class="menu-list-item">Neymar</li>
@@ -94,9 +95,7 @@
 
         <!-- Le corps de la page -->
         <main id="main">
-            <h1 id="main-title">
-                Nouvautés
-            </h1>
+            <h1 id="main-title"> Nouvautés </h1>
             <div id="card-container">
                 <!-- <div class="card">
                     <div class="card-image-container">
@@ -251,11 +250,64 @@
                     </div> -->
                 <!-- </div> -->
             </div>
+
+            <div id="category-container">
+            </div>
         </main>
 
         <!-- Le pied de la page -->
         <footer id="footer">
+            <div id="footer-content">
+				<div id="footer-item-1">
+					<img id="footer-img" src="./img/footer/Foot MG.png" alt="">
+					<ul>
+						<li>
+							<i class="fa-solid fa-home"></i> <span>II A 141 T Nanisana</span>
+						</li>
+					</ul>
 
+				</div>
+				<div id="footer-item-2">
+					<h1>CATÉGORIES</h1>
+					<ul>
+						<li>BALLONS</li>
+						<li>CHAUSETTES</li>
+						<li>VÊTEMENTS</li>
+						<li>MAILLOTS</li>
+						<li>TEST</li>
+					</ul>
+				</div>
+				<div id="footer-item-3">
+					<h1>INFORMATIONS</h1>
+					<ul>
+						<li>MENTIONS LÉGALES</li>
+						<li>CONDITIONS D'UTILISATION DE VENTE</li>
+						<li>PAIEMENT SÉCURISÉ</li>
+						<li>RETOURS ÉCHANGES</li>
+						<li>CONTACTEZ-NOUS</li>
+					</ul>
+				</div>
+				<div id="footer-item-4">
+					<h1>SUIVEZ NOUS</h1>
+					<ul>
+						<li><i class="fa-brands fa-facebook"></i><a href="">Facebook</a></li>
+						<li><i class="fa-brands fa-instagram"></i><a href="">Instagram</a></li>
+						<li><i class="fa-brands fa-linkedin-in"></i><a href="">Linked'In</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="newsletter-container">
+				<h1>Inscription à la newsletter</h1>
+				<p>
+					Vous pouvez vous désinscrire à tout moment.
+					Vous trouverez pour cela nos informations de
+					contact dans les conditions d'utilisation du site.
+				</p>
+				<form action="">
+					<input type="text" name="" placeholder="Inscrivez vous ici">
+					<input type="submit" value="SOUSCRIRE">
+				</form>
+			</div>
         </footer>
         
         <!-- Le panier -->
