@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="./assets/css/index.css">
     <title>Foot MG</title>
 </head>
 <body>
     <div id="root">
         <!-- Les entétes de la page -->
         <header id="header">
+            <!-- Service container -->
             <div id="service-container">
-                <div id="service-client">
-
+                <div id="service-client" class="service-item">
+                   <img src="./assets/img/icon/ico_customer_service.png" alt="Service client">
+                   <span>Service client : au <a href="" id="num-service">+261 34 16 540 07</a></span> 
                 </div>
-                <div id="service-livraison">
-                        
+                <div id="service-livraison" class="service-item">
+                    <img src="./assets/img/icon/ico_shipping.png" alt="Service de livraison">
+                    <span>Livraison mondial à partir de 100€</span>
+                </div>
+                <div id="service-collect" class="service-item">
+                    <img src="./assets/img/icon/ico_click_collect.png" alt="Service de service-collect">
+                    <span>Click& Collect - La Grande Motte</span>
                 </div>
             </div>
         </header>
@@ -29,6 +36,11 @@
         <footer id="footer">
 
         </footer>
+        
+        <!-- Le panier -->
+        <div id="panier-container">
+
+        </div>
     </div>
 </body>
 </html>
