@@ -109,6 +109,29 @@ fetch('/assets/data/data.json')
 
         // console.log(inputSearch);
 
+        let caretLeft =  document.querySelector('#caret-left')
+        let caretRight =  document.querySelector('#caret-right')
+        let navImage = document.querySelector('#nav-image')
+        
+        let index = 0;
+        
+        caretLeft.addEventListener('click', () => {
+            index--
+            index = Math.abs(index) % 2
+
+            let srcNavImage = `./img/background/nav-image-${index}.webp`
+            navImage.src = srcNavImage
+            console.log("left", index);
+        })
+        caretRight.addEventListener('click', () => {
+            index++
+            index %= 2
+            console.log("right", index);
+            let srcNavImage = `./img/background/nav-image-${index}.webp`
+            navImage.src = srcNavImage
+        })
+
+        
 
         inputSearch.addEventListener('keyup', (data) => {
             let target = inputSearch.value

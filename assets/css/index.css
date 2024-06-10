@@ -121,10 +121,27 @@ html, body, #root {
 #nav-image-container{
     padding: 10px 8% 20px 8%;
     text-align: center;
+    position: relative;
+}
+
+#nav-image-container i {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+#caret-left {
+    left: calc( 8% + 10px);
+}
+
+#caret-right {
+    right: calc( 8% + 10px);
 }
 
 #nav-image {
     width: 84%;
+    height: 200px;
 }
 
 /* *************** */
