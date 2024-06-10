@@ -22,7 +22,7 @@
             "description": "Chaussettes Confortables et durables, idéales pour tout type de chaussures."
         },
         {
-            "id": 3,
+            "id": 2,
             "image": "./img/produits/Chaussettes/chaussettes-soxpro-grip-anti-slip-vert.webp",
             "name": "Chaussettes Soxprop Grip",
             "old-price": 275.00,
@@ -32,7 +32,7 @@
             "description": "Chaussettes Soxprop Grip : Haute performance, avec grip anti-slip pour une meilleure tenue."
         },
         {
-            "id": 4,
+            "id": 3,
             "image": "./img/produits/sweats/sweat-zippe-allemagne-gris-fonce-2020.webp",
             "name": "Sweat Zipper Allemagne",
             "old-price": 225.00,
@@ -42,7 +42,7 @@
             "description": "Description du Sweat Zipper Allemagne : Un sweat confortable avec zip, parfait pour le temps froid."
         },
         {
-            "id": 5,
+            "id": 4,
             "image": "./img/produits/polo/polo-copa-maradona-x-boca-retro.webp",
             "name": "Polo Maradona Copa",
             "old-price": 200.00,
@@ -148,7 +148,7 @@
             "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
         },
         {
-            "id": 14,
+            "id": 15,
             "image": "./img/produits/maillots/maillot-copa-juventus-domicile.webp",
             "name": "Maillot Arsenal domicile",
             "old-price": 225.00,
@@ -158,7 +158,7 @@
             "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
         },
         {
-            "id": 14,
+            "id": 16,
             "image": "./img/produits/maillots/maillot-entrainement-ol-bleu-blanc-2022-23.webp",
             "name": "Maillot Arsenal domicile",
             "old-price": 225.00,
@@ -168,7 +168,7 @@
             "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
         },
         {
-            "id": 14,
+            "id": 17,
             "image": "./img/produits/maillots/maillot-fc-barcelone-domicile-authentique-2023-24.webp",
             "name": "Maillot Arsenal domicile",
             "old-price": 225.00,
@@ -178,7 +178,7 @@
             "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
         },
         {
-            "id": 14,
+            "id": 18,
             "image": "./img/produits/maillots/maillot-manchester-united-domicile-authentique-2023-24.webp",
             "name": "Maillot Arsenal domicile",
             "old-price": 225.00,
@@ -190,7 +190,7 @@
     ],
     "sweats": [
         {
-            "id": 15,
+            "id": 19,
             "image": "./img/produits/sweats/sweat-zippe-allemagne-gris-fonce-2020.webp",
             "name": "Sweat Zipper Allemagne",
             "old-price": 275.00,
@@ -202,7 +202,7 @@
     ],
     "shorts": [
         {
-            "id": 16,
+            "id": 20,
             "image": "./img/produits/shorts/short-bayern-munich-domicile-2024-25.webp",
             "name": "Bayern Munich 24-25",
             "old-price": 275.00,
@@ -214,7 +214,7 @@
     ],
     "messi": [
         {
-            "id": 16,
+            "id": 21,
             "image": "./img/produits/maillots/maillot-messi-argentina.jpeg",
             "name": "Maillot messi argentina",
             "old-price": 275.00,
@@ -224,7 +224,7 @@
             "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
         },
         {
-            "id": 16,
+            "id": 22,
             "image": "./img/produits/maillots/maillot-messi-barca.jpeg",
             "name": "Maillot Messi Barca",
             "old-price": 275.00,
@@ -234,7 +234,7 @@
             "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
         },
         {
-            "id": 16,
+            "id": 23,
             "image": "./img/produits/maillots/maillot-messi-miami.jpeg",
             "name": "Bayern Munich 24-25",
             "old-price": 275.00,
@@ -244,7 +244,7 @@
             "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
         },
         {
-            "id": 16,
+            "id": 24,
             "image": "./img/produits/maillots/maillots-messi-psg.jpeg",
             "name": "Bayern Munich 24-25",
             "old-price": 275.00,

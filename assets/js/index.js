@@ -1,7 +1,5 @@
 import { drawCard , drawCardCategory, drawDetailledCard} from "./components/Card.js";
 
-let cards = document.querySelectorAll('.card')
-
 fetch('/assets/data/data.json')
     .then ( res => res.json() )
     .then( data => {
@@ -105,12 +103,19 @@ fetch('/assets/data/data.json')
 
         // On gère le click des cards
         
-        // console.log(cards); 
+        let cards = document.querySelectorAll('.card')
         cards.forEach(card => {
             card.addEventListener('click', () => {
-                console.log(card);
+                let path = card.querySelector('img').src
+
+                let obj = {
+                    "image": path,
+                    "name" : "Rabe",
+                    "description": "kaizakaiza",
+                    "optionsName" : "Pointure",
+                    "optionsValue" : [32, 46, 54]
+                }
+                drawDetailledCard(main, obj)
             })
         })
-
-        new Mu
     });

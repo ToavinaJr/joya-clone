@@ -214,6 +214,38 @@ html, body, #root {
 .list-title, .menu-list-item {
     color: #fff;
 }
+
+#panier-container , #form-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#form-panier select {
+    padding: 10px;
+}
+
+#submit-panier {
+    padding: 10px;
+    background-color: var(--color-blue);
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#submit-panier:hover{
+    background-color: #01468f;
+}
+
+#panier-content , #form-panier {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
 /* STYLE DE MAIN */
 
 #main {
