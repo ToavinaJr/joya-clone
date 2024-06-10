@@ -146,6 +146,46 @@
             "categorie": "maillot",
             "etoile": 5,
             "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
+        },
+        {
+            "id": 14,
+            "image": "./img/produits/maillots/maillot-copa-juventus-domicile.webp",
+            "name": "Maillot Arsenal domicile",
+            "old-price": 225.00,
+            "price-reduction": 149.00,
+            "categorie": "maillot",
+            "etoile": 5,
+            "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
+        },
+        {
+            "id": 14,
+            "image": "./img/produits/maillots/maillot-entrainement-ol-bleu-blanc-2022-23.webp",
+            "name": "Maillot Arsenal domicile",
+            "old-price": 225.00,
+            "price-reduction": 149.00,
+            "categorie": "maillot",
+            "etoile": 5,
+            "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
+        },
+        {
+            "id": 14,
+            "image": "./img/produits/maillots/maillot-fc-barcelone-domicile-authentique-2023-24.webp",
+            "name": "Maillot Arsenal domicile",
+            "old-price": 225.00,
+            "price-reduction": 149.00,
+            "categorie": "maillot",
+            "etoile": 5,
+            "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
+        },
+        {
+            "id": 14,
+            "image": "./img/produits/maillots/maillot-manchester-united-domicile-authentique-2023-24.webp",
+            "name": "Maillot Arsenal domicile",
+            "old-price": 225.00,
+            "price-reduction": 149.00,
+            "categorie": "maillot",
+            "etoile": 5,
+            "description": "Maillot officiel de l'AS Monaco, disponible en différentes tailles."
         }
     ],
     "sweats": [

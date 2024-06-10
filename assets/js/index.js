@@ -45,24 +45,15 @@ fetch('/assets/data/data.json')
             drawCardCategory(cardCategoryContainer , dataItem[i]);
         }
 
-        let cards = document.querySelectorAll('.card');
-        cards.forEach( card => {
-            card.addEventListener('click', () => {
-                console.log(card);
+        
+        let cards = document.querySelectorAll('.card')
 
-                let img = card.querySelector('img')
-                let path = img.src
-                
-                let object = {
-                    'image': img
-                }
-
-                drawDetailedCard(main, object)
-            })  
-        })
+        for (let i=0; i<cards.length; i++) {
+            console.log(cards[i]);
+        }
 
         let menuToogle  = document.querySelector('#menu-toogle')
-
+        
         menuToogle.addEventListener('click', () => {
             let menuContents = document.querySelectorAll('.menu-content')
 
@@ -107,7 +98,6 @@ fetch('/assets/data/data.json')
         // FOnctionnalité pour gérer la recherche
         let inputSearch = document.querySelector('#input-catalogue')
 
-        // console.log(inputSearch);
 
         let caretLeft =  document.querySelector('#caret-left')
         let caretRight =  document.querySelector('#caret-right')
@@ -121,7 +111,7 @@ fetch('/assets/data/data.json')
 
             let srcNavImage = `./img/background/nav-image-${index}.webp`
             navImage.src = srcNavImage
-            console.log("left", index);
+            
         })
         caretRight.addEventListener('click', () => {
             index++
@@ -135,15 +125,13 @@ fetch('/assets/data/data.json')
 
         inputSearch.addEventListener('keyup', (data) => {
             let target = inputSearch.value
-            // console.log(dataJson);
             let title = document.getElementById('main-title').textContent.toLowerCase()
-            console.log(title, dataJson.title);
-            // console.log(title, data.title);
-            // for ( item of data[title] ) {
-            //     if (item.name.contains(target)) {
-            //         result.push(item)
-            //         drawCard(main, item) 
-            //     }
-            // }
+            
+            for ( item of data[title] ) {
+                if (item.name.contains(target)) {
+                    result.push(item)
+                    drawCard(main, item) 
+                }
+            }
         })
     });

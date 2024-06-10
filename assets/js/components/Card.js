@@ -56,4 +56,4 @@ const drawDetailedCard = ( parent , data ) => {
                             </div>
                         `
 }
-export {drawCard, drawCardCategory, drawDetailedCard}
+export { drawCard, drawCardCategory, drawDetailedCard }

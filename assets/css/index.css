@@ -116,6 +116,7 @@ html, body, #root {
     width: 40px;
 }
 
+
 /* *************** */
 
 #nav-image-container{
@@ -129,6 +130,11 @@ html, body, #root {
     position: absolute;
     top: 50%;
     cursor: pointer;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    transform: translateY(-50%);
 }
 
 #caret-left {
@@ -192,6 +198,7 @@ html, body, #root {
 .menu-content:hover {
     color: #fff;
 }
+
 .menu-content:hover ul {
     padding: 10px;
     display: flex;
@@ -463,6 +470,14 @@ html, body, #root {
     
     #nav-top {
         padding: 4px;
+    }
+    
+    #caret-left {
+        left: 10px;
+    }
+    
+    #caret-right {
+        right: 10px;
     }
     
     #compte-panier,
