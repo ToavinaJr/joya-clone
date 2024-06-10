@@ -40,14 +40,9 @@ const drawCardCategory = ( parent, data) => {
     categoryName.textContent = data.categorie
     categoryCard.append(categoryName, categoryImg)
     parent.append(categoryCard)
-    // parent.innerHTML += `
-    //                     <div class="category-card" >
-    //                         <span class="category-name">${data.categorie}</span>
-    //                     </div>
-    //                     `
 }
 
-const drawDetailedCard = ( parent , data ) => {
+const drawDetailledCard = ( parent , data ) => {
     parent.innerHTML =  `
                             <div id="main-left">
                                 <img src="${data.image}" alt="">
@@ -56,4 +51,5 @@ const drawDetailedCard = ( parent , data ) => {
                             </div>
                         `
 }
-export { drawCard, drawCardCategory, drawDetailedCard }
+
+export { drawCard, drawCardCategory, drawDetailledCard }

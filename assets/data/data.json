@@ -124,7 +124,7 @@
             "description": "Un mini Ballon jersey de FC Barcelone, parfait pour les enfants."
         }
     ],
-    "chaussettes": [
+    "chaussures": [
         {
             "id": 13,
             "image": "./img/produits/Chaussettes/chaussettes-soxpro-grip-anti-slip-vert.webp",
@@ -211,5 +211,68 @@
             "etoile": 5,
             "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
         }
+    ],
+    "messi": [
+        {
+            "id": 16,
+            "image": "./img/produits/maillots/maillot-messi-argentina.jpeg",
+            "name": "Maillot messi argentina",
+            "old-price": 275.00,
+            "price-reduction": 149.00,
+            "categorie": "maillot",
+            "etoile": 5,
+            "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
+        },
+        {
+            "id": 16,
+            "image": "./img/produits/maillots/maillot-messi-barca.jpeg",
+            "name": "Maillot Messi Barca",
+            "old-price": 275.00,
+            "price-reduction": 149.00,
+            "categorie": "shorts",
+            "etoile": 5,
+            "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
+        },
+        {
+            "id": 16,
+            "image": "./img/produits/maillots/maillot-messi-miami.jpeg",
+            "name": "Bayern Munich 24-25",
+            "old-price": 275.00,
+            "price-reduction": 149.00,
+            "categorie": "shorts",
+            "etoile": 5,
+            "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
+        },
+        {
+            "id": 16,
+            "image": "./img/produits/maillots/maillots-messi-psg.jpeg",
+            "name": "Bayern Munich 24-25",
+            "old-price": 275.00,
+            "price-reduction": 149.00,
+            "categorie": "shorts",
+            "etoile": 5,
+            "description": "Shorts officiels de l'équipe Bayern Munich pour la saison 24-25."
+        }
+    ],
+    "gardiens": [
+
+    ],
+    "entraineurs": [
+
+    ],
+    "arbitres": [
+
+    ],
+    "protèges": [
+
+    ],
+    "casquettes": [
+
+    ],
+    "neymar": [
+
+    ],
+    "cr7": [
+
     ]
 }
